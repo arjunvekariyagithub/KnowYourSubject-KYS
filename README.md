@@ -29,3 +29,13 @@ Platform & Tools: -
           - APIs: Jersey library, GSON library
           - Architecture: Server-Client model ​
           - OS: Windows, Macintosh
+
+#Screenshots
+
+![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/1_framed.png?raw=true)
+![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/1_framed.png?raw=true)
+![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/1_framed.png?raw=true)
+![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/1_framed.png?raw=true)
+![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/1_framed.png?raw=true)
+![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/1_framed.png?raw=true)
+![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/1_framed.png?raw=true)
