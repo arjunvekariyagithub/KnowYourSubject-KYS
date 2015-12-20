@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add professor"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:background="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textColor="@color/ColorWhite"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/add_prof_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Professor name"/>
+
+        <EditText
+            android:id="@+id/add_prof_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:hint="Email id"/>
+
+        <EditText
+            android:id="@+id/add_prof_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Contact"/>
+
+
+        <EditText
+            android:id="@+id/add_prof_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Url"
+            android:layout_marginTop="10dp"
+            android:inputType="textMultiLine"/>
+
+
+    </LinearLayout>
+</LinearLayout>

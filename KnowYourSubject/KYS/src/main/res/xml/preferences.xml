@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:icon="@drawable/ic_action_person"
+        android:key="pref_key_Profile"
+        android:title="Profile">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.project.android.app.kys.activities.RegistrationActivity"
+            android:targetPackage="com.project.android.app.kys"></intent>
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:clickable="true">
+
+    <FrameLayout
+        android:id="@+id/course_list_item_frame_layout"
+        android:layout_width="@dimen/circle_radius"
+        android:layout_height="@dimen/circle_radius"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/course_list_item_iv_circle"
+            android:layout_width="@dimen/circle_radius"
+            android:layout_height="@dimen/circle_radius"
+            android:background="@drawable/titlecircle" />
+
+        <TextView
+            android:id="@+id/course_list_item_tv_initials"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:text="25"
+            android:textColor="@color/ColorWhite"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/course_list_item_frame_layout"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/course_list_item_tv_nos_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="200"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/course_list_item_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/course_list_item_tv_nos_feedback"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Software Engineering 1"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/course_list_item_tv_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/feedbacks"
+                android:textColor="@color/secondaryColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/course_list_item_tv_course_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/course_list_item_tv_feedback"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/secondaryColor"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/course_list_item_tv_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Software Engineering 1 summary"
+            android:textColor="@color/secondaryColor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/course_list_item_devider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/secondaryColor"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10dp"
+        android:visibility="invisible"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+

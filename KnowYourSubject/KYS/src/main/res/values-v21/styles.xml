@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">@color/SecondaryColor</item>
+        <item name="colorControlHighlight">@color/SecondaryColor</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

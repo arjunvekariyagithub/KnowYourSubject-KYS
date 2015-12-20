@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="DISCIPLINES">
+        <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_engi"
+                android:title="Engineering"
+                android:icon="@drawable/circle"/>
+            <item
+                android:id="@+id/nav_science"
+                android:title="Science"
+                android:icon="@drawable/circle"/>
+            <item
+                android:id="@+id/nav_management"
+                android:title="Management"
+                android:icon="@drawable/circle"/>
+            <item
+                android:id="@+id/nav_medical"
+                android:title="Medical"
+                android:icon="@drawable/circle"/>
+        </group>
+        </menu>
+    </item>
+
+    <!-- <item android:title="ADMIN RIGHTS">
+         <menu>
+             <item android:id="@+id/nav_managediscipline" android:title="Manage Discipline" />
+             <item android:id="@+id/nav_managedepartment" android:title="Manage Department" />
+             <item android:id="@+id/nav_major" android:title="Manage Major" />
+             <item android:id="@+id/nav_course" android:title="Manage Course" />
+             <item android:id="@+id/nav_adddiscipline" android:title="Add Discipline" />
+             <item android:id="@+id/nav_addprofessor" android:title="Add Professor" />
+             <item android:id="@+id/nav_manageprofessor" android:title="Manage Professor" />
+             <item android:id="@+id/nav_spamfeedback" android:title="Spam Feedback" />
+         </menu>
+     </item>-->
+
+    <item android:title="SETTINGS">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:title="Settings"
+                android:icon="@drawable/circle"/>
+        </menu>
+
+    </item>
+</menu>

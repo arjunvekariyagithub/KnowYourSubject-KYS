@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true"
+    tools:context="com.project.android.app.kys.activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/reg_verify_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="20dp"
+            android:text="@string/registration_msg_verify_code"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/largeFonts" />
+
+        <EditText
+            android:id="@+id/reg_et_verif_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/enter_varifi_code"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/HintColor"
+            android:textSize="@dimen/largeFonts" />
+
+        <Button
+            android:id="@+id/reg_bt_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:minHeight="40dp"
+            android:text="@string/verify"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/reg_verify_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:visibility="invisible"
+            android:text="@string/mag_enter_correct_verif_code"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/largeFonts" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="50dp">
+
+
+    <Button
+            android:id="@+id/bt_reg_varify_guest_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimaryDark"
+            android:minHeight="40dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/login_guest_user"
+            android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>

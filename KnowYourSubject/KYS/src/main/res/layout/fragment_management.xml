@@ -1,0 +1,793 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pa.expenger.Fragments.FragmentOverview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/ColorWhite"
+            android:elevation="2dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ColorWhite"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/titleBackground"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="LIST OF MAJORS"
+                    android:textAllCaps="true"
+                    android:textColor="@color/titleFont"
+                    android:textSize="@dimen/titleFontSize" />
+
+
+                <!-- ****************************************************************************************-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <FrameLayout
+                        android:id="@+id/fm_date"
+                        android:layout_width="@dimen/circle_radius"
+                        android:layout_height="@dimen/circle_radius"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:id="@+id/iv_HistoryCategroyColor"
+                            android:layout_width="@dimen/circle_radius"
+                            android:layout_height="@dimen/circle_radius"
+                            android:background="@drawable/titlecircle" />
+
+
+                        <TextView
+                            android:id="@+id/tv_disiplineInitials"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:text="DB"
+                            android:textColor="@color/ColorWhite"
+                            android:textStyle="bold" />
+
+
+                    </FrameLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_toRightOf="@id/fm_date"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/tv_DiscilpineTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Database Systems"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+
+                            <TextView
+                                android:id="@+id/tv_disciplineSummary"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="A database management system (DBMS) is a computer software application that interacts with the user, other applications, and the database itself to capture and analyze data."
+                                android:textSize="12sp"></TextView>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <!--****************************************************************************************-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#E8E8E8" />
+
+                <!-- ****************************************************************************************-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <FrameLayout
+                        android:id="@+id/fm_date2"
+                        android:layout_width="@dimen/circle_radius"
+                        android:layout_height="@dimen/circle_radius"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/circle_radius"
+                            android:layout_height="@dimen/circle_radius"
+                            android:background="@drawable/titlecircle" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:text="SE"
+                            android:textColor="@color/ColorWhite"
+                            android:textStyle="bold" />
+
+
+                    </FrameLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_toRightOf="@id/fm_date2"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Software Engineering"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Software engineering is the study and an application of engineering to the design, development and maintenance of software."
+                                android:textSize="12sp"></TextView>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <!--****************************************************************************************-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#E8E8E8" />
+
+                <!-- ****************************************************************************************-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <FrameLayout
+                        android:id="@+id/fm_date3"
+                        android:layout_width="@dimen/circle_radius"
+                        android:layout_height="@dimen/circle_radius"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/circle_radius"
+                            android:layout_height="@dimen/circle_radius"
+                            android:background="@drawable/titlecircle" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:text="CN"
+                            android:textColor="@color/ColorWhite"
+                            android:textStyle="bold" />
+
+
+                    </FrameLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_toRightOf="@id/fm_date3"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Computer Networks"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="A computer network is a group of computer systems and other computing hardware devices that are linked together through communication channels"
+                                android:textSize="12sp"></TextView>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!--****************************************************************************************-->
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/ColorWhite"
+            android:elevation="2dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ColorWhite"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/titleBackground"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="YOUR FEEDBACKS"
+                    android:textAllCaps="true"
+                    android:textColor="@color/titleFont"
+                    android:textSize="@dimen/titleFontSize" />
+
+
+                <!-- *******************************************************************************************-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/ColorWhite"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <FrameLayout
+                            android:id="@+id/fm_date4"
+                            android:layout_width="@dimen/circle_radius"
+                            android:layout_height="@dimen/circle_radius"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/circle_radius"
+                                android:layout_height="@dimen/circle_radius"
+                                android:background="@drawable/circle_secodnary"
+                                android:src="@drawable/titlecircle" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:text="JD"
+                                android:textColor="@color/ColorWhite"
+                                android:textStyle="bold" />
+
+
+                        </FrameLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/fm_date4"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Jon Doe"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RatingBar
+                                    style="?android:attr/ratingBarStyleSmall"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:progress="60" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="31/10/2015" />
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Very Nice Subject"
+                                android:textColor="@color/ColorBlack"
+                                android:textSize="12sp"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="I took this subject in last sem and it was really interesting"
+                                android:textSize="12sp"></TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="10dp"
+                            android:orientation="horizontal">
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_action_edit" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_action_delete" />
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/darker_gray">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="Prof. Name: John Robb"
+                            android:textColor="@color/ColorWhite" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="Course: SE1"
+                            android:textColor="@color/ColorWhite" />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+                <!--******************************************************************************************-->
+
+                <!-- *******************************************************************************************-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/ColorWhite"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <FrameLayout
+                            android:id="@+id/fm_date5"
+                            android:layout_width="@dimen/circle_radius"
+                            android:layout_height="@dimen/circle_radius"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/circle_radius"
+                                android:layout_height="@dimen/circle_radius"
+                                android:background="@drawable/circle_secodnary"
+                                android:src="@drawable/titlecircle" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:text="JD"
+                                android:textColor="@color/ColorWhite"
+                                android:textStyle="bold" />
+
+
+                        </FrameLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/fm_date5"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Jon Doe"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RatingBar
+                                    style="?android:attr/ratingBarStyleSmall"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:progress="80" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="30/10/2015" />
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Awesome"
+                                android:textColor="@color/ColorBlack"
+                                android:textSize="12sp"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Easy to Manage"
+                                android:textSize="12sp"></TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="10dp"
+                            android:orientation="horizontal">
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_action_edit" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_action_delete" />
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/darker_gray">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="Prof. Name: Ranjan Dash"
+                            android:textColor="@color/ColorWhite" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="Course: DB1"
+                            android:textColor="@color/ColorWhite" />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+                <!--******************************************************************************************-->
+
+                <!-- *******************************************************************************************-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/ColorWhite"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <FrameLayout
+                            android:id="@+id/fm_date6"
+                            android:layout_width="@dimen/circle_radius"
+                            android:layout_height="@dimen/circle_radius"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp">
+
+                            <ImageView
+                                android:layout_width="@dimen/circle_radius"
+                                android:layout_height="@dimen/circle_radius"
+                                android:background="@drawable/circle_secodnary"
+                                android:src="@drawable/titlecircle" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:text="JD"
+                                android:textColor="@color/ColorWhite"
+                                android:textStyle="bold" />
+
+
+                        </FrameLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/fm_date6"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Jon Doe"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RatingBar
+                                    style="?android:attr/ratingBarStyleSmall"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:progress="40" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="30/10/2015" />
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Difficult to get A"
+                                android:textColor="@color/ColorBlack"
+                                android:textSize="12sp"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Course work is depends on your interest"
+                                android:textSize="12sp"></TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="10dp"
+                            android:orientation="horizontal">
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_action_edit" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_action_delete" />
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/darker_gray">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="Prof. Name: David c. Kung"
+                            android:textColor="@color/ColorWhite" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="Course: SDP"
+                            android:textColor="@color/ColorWhite" />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+                <!--******************************************************************************************-->
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
