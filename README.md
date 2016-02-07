@@ -31,15 +31,23 @@
   - OS: Windows, Macintosh
 
 #Screenshots
-
+Login screen
 ![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/1_framed.png?raw=true)
+Register user screen
 ![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/2_framed.png?raw=true)
+Navigation drawer showing list of disciplines available in the university
 ![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/3_framed.png?raw=true)
+Screen showing list of departments under specific discipline
 ![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/4_framed.png?raw=true)
+Screen showing list of majors under specific department
 ![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/5_framed.png?raw=true)
+
 ![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/6_framed.png?raw=true)
+
 ![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/7_framed.png?raw=true)
+
 ![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/8_framed.png?raw=true)
+
 ![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/9_framed.png?raw=true)
 ![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/10_framed.png?raw=true)
 ![ScreenShot](https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/11_framed.png?raw=true)
