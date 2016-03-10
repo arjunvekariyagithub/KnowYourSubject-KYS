@@ -7,10 +7,10 @@
           subjects they have studied.
         - We are planning to launch beta version of this project for University of Texas, Arlington student soon.
 
-####Project activities:
+###Project activities
         - Requirement gathering, Designing Use Cases, Designing different UML Diagrams, Preparing UI and GUI considering ease           of User experience, Development and Testing.
 
-####Motivation
+###Motivation
         To develop effective solutions for problems being faced by university students such as:
         - Not able to decide what to study
         - Not able to find appropriate course of interest
