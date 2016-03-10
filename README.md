@@ -6,6 +6,7 @@
         - It is a centralized service which facilitates students to provide reviews about professors, course work and 
           subjects they have studied.
         - We are planning to launch beta version of this project for University of Texas, Arlington student soon.
+        * This is only a sample code for the project for demonstration purpose
 
 ###Project activities
         - Requirement gathering, Designing Use Cases, Designing different UML Diagrams, Preparing UI and GUI considering ease           of User experience, Development and Testing.
@@ -33,7 +34,7 @@
 ###Platform & Tools
         - IDE: Eclipse, Android Studio
         - Database: MySQL, Hibernate (ORM), Spring
-        - Web Services: Tomcat server​, RESTful services, JSON 
+        - Web Services: Tomcat server​, REST services, JSON
         - VCS: GitHub, BitBucket
         - Design tools: Astah, Rational rose, and UML
         - Programming Language: JAVA
