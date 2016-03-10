@@ -1,34 +1,49 @@
-# KYS-KnowYourSubject
-- KYS - An app that provides everything you need to know about your professors and courses.
-- KYS is an ongoing android project , aiming to help university students decide subjects for their course work by
-  providing essential information pertaining to subjects and its coursework.
-- A centralized online service, which facilitates students to provide feedbacks about professors and subjects they
-  have studied.
+## KnowYourSubject(KYS)
+        - KYS is an ongoing full fledged android project started as a part of first semester academic project and then  
+          extended further realizing the potential of this project for solving problems faced by university students.
 
-- Using KYS, for any subject, students easily get an idea about:-
-  - Course content ​
-  - Projects 
-  - Assignments
-  - Grading system
-  - Quiz
-  - Labs
-  - Professor​s
-  - Workload
-  - Research areas
-  - GTA/ GRA opportunities
+        - This project aims to help students decide subjects for their course work by providing essential information       
+          pertaining to subjects, professors and course work.
+
+        - It is a centralized service which facilitates students to provide reviews about professors, course work and 
+          subjects they have studied.
+
+        - We are planning to launch beta version of this project for UTA student soon.
+
+####Project activities:
+        Requirement gathering, Designing Use Cases, Designing different UML Diagrams, Preparing UI and GUI considering ease          of User experience, Development and Testing.
+
+####Motivation
+        To develop effective solutions for problems being faced by university students such as:
+        - Not able to decide what to study
+        - Not able to find appropriate course of interest
+        - Quiet difficult and confusing to decide subjects, especially for new students
+        - Not having much idea about important factors: Course content, Quality of professor, Projects, Practicle importance           of subject, Labs, Assignments, Grading system etc.
+        
+###Why KYS?
+        - KYS is an attempt to resolve all the problems described before and help students determining their coursework
+        - A centralized open service, which enables users to provide feedbacks for subjects and professors
+        - A comprehensive system to you know anything and everything about subjects and professors
+        - Get candid feedbacks from students who have already studied or have any prior knowledge about subjects
+        - Provides overall rating for every subjects consedering all user's rating
+        
+        - Using KYS students easily get an idea about:
+          Course content, Projects, Assignments, Grading system, Quiz, Labs, Professor, Workload, Research areas, GTA/ GRA 
+          opportunities
+          
+        
    
-- Platform & Tools: - 
-  - IDE: Eclipse/ Android Studio ​
-  - Database: MySQL
-  - Database Interface: Hibernate (ORM), Spring ​
-  - Web Services: Tomcat server​, RESTful services,  JSON 
-  - VCS: GitHub, BitBucket ​
-  - Design tools: Astah, Rational rose, and UML ​
-  - Programming Language: JAVA ​
-  - Platform: Android
-  - APIs: Jersey library, GSON library
-  - Architecture: Server-Client model ​
-  - OS: Windows, Macintosh
+###Platform & Tools
+        - IDE: Eclipse, Android Studio
+        - Database: MySQL, Hibernate (ORM), Spring
+        - Web Services: Tomcat server​, RESTful services, JSON 
+        - VCS: GitHub, BitBucket
+        - Design tools: Astah, Rational rose, and UML
+        - Programming Language: JAVA
+        - Platform: Android
+        - APIs: Jersey, GSON, and Volly libraries 
+        - Architecture: Server-Client model
+        - OS: Windows, Macintosh
 
 #Screenshots
 ###1. Login screen
