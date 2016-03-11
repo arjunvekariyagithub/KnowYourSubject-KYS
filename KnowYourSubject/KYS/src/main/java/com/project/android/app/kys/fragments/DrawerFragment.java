@@ -145,41 +145,9 @@ public class DrawerFragment extends Fragment {
                 setAdapter(dispList);
             }
         }
-
-
-        //setAdapter(dispList);
     }
 
     private void setAdapter(ArrayList<Discipline> dispList) {
-        /*ArrayList<Discipline> dummyDispList = new ArrayList<Discipline>();
-        Discipline discipline1 = new Discipline();
-        discipline1.setDisciplineId(100);
-        discipline1.setDisciplineName("Engieering");
-        discipline1.setDisciplineInitials("ENG");
-        discipline1.setDisciplineSummary("Mathematics discipline is the worst discipline amongst all the discipline.");
-        dummyDispList.add(discipline1);
-
-        Discipline discipline2 = new Discipline();
-        discipline2.setDisciplineId(100);
-        discipline2.setDisciplineName("Mathematics");
-        discipline2.setDisciplineInitials("MATH");
-        discipline2.setDisciplineSummary("Mathematics discipline is the worst discipline amongst all the discipline.");
-        dummyDispList.add(discipline2);
-
-        Discipline discipline3 = new Discipline();
-        discipline3.setDisciplineId(100);
-        discipline3.setDisciplineName("Science");
-        discipline3.setDisciplineInitials("SC");
-        discipline3.setDisciplineSummary("Mathematics discipline is the worst discipline amongst all the discipline.");
-        dummyDispList.add(discipline3);
-
-        Discipline discipline4 = new Discipline();
-        discipline4.setDisciplineId(100);
-        discipline4.setDisciplineName("Management");
-        discipline4.setDisciplineInitials("MG");
-        discipline4.setDisciplineSummary("Mathematics discipline is the worst discipline amongst all the discipline.");
-        dummyDispList.add(discipline4);*/
-
         mAdapter = new DrawerAdapter(getActivity(), dispList);
         if(mRecyclerView != null && isResumed()) {
             mRecyclerView.setAdapter(mAdapter);
