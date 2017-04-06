@@ -86,5 +86,5 @@ Forgot password               |  Reset password
 :-------------------------:|:-------------------------:
 <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/17_framed.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/18_framed.png" width="320" height="510" />
 
-### 19. Change password
+### Change password
 <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/20_framed.png" width="320" height="510" />
