@@ -50,43 +50,41 @@
         - OS: Windows, Macintosh
 
 # Screenshots
-### 1. Login screen
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/1_framed.png" width="320" height="510" />
-### 2. Register user screen
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/2_framed.png" width="320" height="510" />
-### 3. Navigation drawer showing list of disciplines available in the university
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/3_framed.png" width="320" height="510" />
-### 4. Screen showing list of departments under specific discipline
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/4_framed.png" width="320" height="510" />
-### 5. Screen showing list of majors under specific department
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/5_framed.png" width="320" height="510" />
-### 6. Screen showing list of courses under specific major
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/6_framed.png" width="320" height="510" />
-### 7. Feedback screen showing user's own feedback seperately, on top of all other feedback
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/7_framed.png" width="320" height="510" />
-### 8. Feedback screen showing overall rating for a course
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/8_framed.png" width="320" height="510" />
-### 9. Feedback screen showing feedbacks from all users
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/9_framed.png" width="320" height="510" />
-### 10. Add course screen
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/10_framed.png" width="320" height="510" />
-### 11. Add feedback screen
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/11_framed.png" width="320" height="510" />
-### 12. Add major screen
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/12_framed.png" width="320" height="510" />
-### 13. Add department screen
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/13_framed.png" width="320" height="510" />
-### 14. Add discipline screen
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/14_framed.png" width="320" height="510" />
-### 15. Add professor screen
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/15_framed.png" width="320" height="510" />
-### 16. Navigation drawer showing  options pertaining to admin and login users
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/16_framed.png" width="320" height="510" />
-### 17. Forgot password screen
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/17_framed.png" width="320" height="510" />
-### 18. Reset password screen
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/18_framed.png" width="320" height="510" />
-### 19. Settings screen
-<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/19_framed.png" width="320" height="510" />
-### 20. Change password screen
+Login              |  Registration
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/1_framed.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/2_framed.png" width="320" height="510" />
+
+Navigation drawer               |  Departments
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/3_framed.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/4_framed.png" width="320" height="510" />
+
+Majors               |  Courses
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/5_framed.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/6_framed.png" width="320" height="510" />
+
+Feedbacks               |  Feedback overall rating
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/7_framed.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/8_framed.png" width="320" height="510" />
+
+Feedback (all users)               |  Add course
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/9_framed.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/10_framed.png" width="320" height="510" />
+
+Add feedback             |  Add major
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/11_framed.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/12_framed.png" width="320" height="510" />
+
+Add department               |  Add discipline
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/13_framed.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/14_framed.png" width="320" height="510" />
+
+Add professor               |  Options
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/15_framed.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/16_framed.png" width="320" height="510" />
+
+Forgot password               |  Reset password
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/17_framed.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/18_framed.png" width="320" height="510" />
+
+### 19. Change password
 <img src="https://raw.githubusercontent.com/arjunvekariyagithub/KYS-KnowYourSubject/master/Screens/20_framed.png" width="320" height="510" />
